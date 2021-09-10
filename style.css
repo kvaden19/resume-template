@@ -1,40 +1,54 @@
 * {
     font-size: 8pt;
-    line-height: 150%;
-    margin: 0px;
 }
 
 aside {
+    margin-left: 1px;
     height: 100vh;
     width: 25%;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #34ace0;
+    background-color: #487eb0;
     color: white;
 }
 
 main {
-    margin-left: 25%;
+    margin-left: 26%;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.about {
+    margin-left: 20px;
 }
 
 /* Name */
 h1 {
     padding: 5px;
-    font-size: 16pt;
+    font-size: 20pt;
     font-weight: 650;
 }
 
 /* Personal Info, Skills */
-h2 {
-    background-color: #227093;
+aside h2 {
+    background-color: #192a56;
     padding: 3px 5px 3px 5px;
     font-size: 10pt;
     margin: 0;
 }
 
-h3 {
+/* Projects, Work Exp, Education */
+h2 {
+    font-size: 10pt;
+}
+
+aside h3 {
     padding: 1px 5px;
+    font-size: 9pt;
+}
+
+h3 {
     font-size: 9pt;
 }
 
@@ -53,4 +67,26 @@ aside ul {
 
 aside li {
     padding-top: 3px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.date-block {
+    width: 20%;
+}
+
+.content-block {
+    width: 80%;
+}
+
+.job {
+    margin-bottom: 15px;
+}
+
+.project {
+    list-style-type: none;
+    margin-bottom: 15px;
 }
